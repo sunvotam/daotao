@@ -1,0 +1,222 @@
+.top {
+	border-color: #e7e7e7;
+	border-top: solid 10px #9c1010;
+	border-bottom: solid 10px #9c1010;
+    padding-top: 10px;
+}
+.footer {
+	font-size: 16px;
+	background: #9c1010;
+    display: inline;
+    float: left;
+    padding: 50px 0;
+    width: 100%;
+}
+body a{
+    transition: 0.5s all ease;
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    -ms-transition: 0.5s all ease;
+}
+.h4, h4 {
+    color: #fff;
+}
+.header-logo a {
+    display: block;
+    width: 100%
+}
+
+#mu-service {
+    display: inline;
+    float: left;
+    
+    width: 100%;
+}
+#mu-service .mu-service-area {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+#mu-service .mu-service-area .mu-service-single {
+    background-color: #01bafd;
+    color: #fff;
+    display: inline;
+    float: left;
+    padding: 35px 25px;
+    text-align: center;
+    width: 33.33%;
+}
+#mu-service-single{
+width: 33.33%;   
+
+}
+#mu-service .mu-service-area .mu-service-single:nth-child(2) {
+    background-color: #2ecc71;
+}
+#mu-service .mu-service-area .mu-service-single:nth-child(3) {
+    background-color: #45a0de;
+}
+
+
+#mu-service .mu-service-area .mu-service-single1 {
+    background-color: #01bafd;
+    color: #fff;
+    display: inline;
+    float: left;
+    padding: 35px 25px;
+    text-align: center;
+    width: 33.33%;
+}
+#mu-service-single{
+width: 33.33%;   
+
+}
+#mu-abtus-counter {
+    background-color: #01bafd;
+    display: inline;
+    float: left;
+    padding: 100px 0;
+    width: 100%;
+}
+#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single h4 {
+    color: #fff;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+#mu-service .mu-service-area .mu-service-single1:nth-child(2) {
+    background-color: #0d2933;
+}
+#mu-service .mu-service-area .mu-service-single1:nth-child(3) {
+    background-color: #1d2021;
+}
+#mu-abtus-counter .mu-abtus-counter-area {
+    display: inline;
+    float: left;
+    width: 100%;
+}
+#mu-abtus-counter .mu-abtus-counter-area .mu-abtus-counter-single {
+    border-right: 2px solid #888;
+    display: inline;
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.top-nav {
+    float: right;
+   margin-top: 100px
+
+
+}
+span.menu {
+    display: none;
+}
+
+.top-nav ul li{
+    list-style-type:none;
+    display: inline-block;
+    margin: 0 1.3em;
+}   
+.top-nav ul li a {
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    color: #3b3b3b;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+
+}
+.cl-effect-5 li a {
+     overflow: hidden;
+     padding: 0 8px 0 0;
+     height: 1.3em;
+
+}
+
+.cl-effect-5 li a span {
+    position: relative;
+    display: inline-block;
+    -webkit-transition: -webkit-transform 0.3s;
+    -moz-transition: -moz-transform 0.3s;
+    transition: transform 0.3s;
+}
+
+.cl-effect-5 li a span::before {
+    position: absolute;
+    top: 100%;
+    content: attr(data-hover);
+    font-weight: 600;
+    -webkit-transform: translate3d(0,0,0);
+    -moz-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+.cl-effect-5 li a:hover span,
+.cl-effect-5 li a:focus span,.cl-effect-5 li a.active span {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    transform: translateY(-100%);
+    color:red;
+}
+address {
+    margin-bottom: 20px;
+    font-style: normal;
+    line-height: 1.42857143;
+    color: #337ab7;
+}
+.tintuc {
+    margin: 20px auto;
+    font-size: 24px;
+    color: #be1e2d;
+    text-transform: uppercase;
+    text-align: center;
+}
+.tintucchung {
+    height: auto;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.Date {
+    color: #999;
+    font-style: italic;
+}
+#sukien {
+    text-align: center;
+}
+.sk {
+    font-size: 30pt;
+    text-transform: uppercase;
+    line-height: 200%;
+    padding: 10px 20px 250px 40px;
+}
+
+.space {
+	padding-bottom: 12em;
+}
+.abc {
+    width: 50px;
+    height: 50px;
+    -webkit-transition: width 2s, height 4s; /* For Safari 3.1 to 6.0 */
+    transition: width 2s, height 4s;
+    position: absolute;
+    z-index: 0;
+    font-size: 60px;
+    color: rgba(0,0,0,0.15);
+}
+
+.abc:hover{
+	 width: 600px;
+	 height: 300px;
+
+}
+#mu-abtus-counter1 {
+    background-color: #01bafd;
+    display: inline;
+    float: left;
+    padding: 6px 0;
+    width: 100%;
+}
